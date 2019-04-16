@@ -1,5 +1,3 @@
-import { StringMapWithRename } from '@angular/core/src/render3/jit/compiler_facade_interface';
-
 export class Actualite {
     id: string;
     type: string;
@@ -12,6 +10,6 @@ export class Actualite {
         this.type = type;
         this.description = description;
         this.date = new Date();
-        this.image = imaggite;
+        this.image = image;
     }
 }
